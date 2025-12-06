@@ -22,7 +22,7 @@
 }
 
 body {
-  background-image: url("C:\\Users\\Althea Muring\\Documents\\esports-inventory-ui\\src\\asset\\abstract-neon-light-gaming-background-generated-by-ai-free-photo.jpg");
+  background-image: url("./asset/abstract-neon-light-gaming-background-generated-by-ai-free-photo.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -30,7 +30,14 @@ body {
   min-height: 100vh;
   font-family: 'Orbitron', sans-serif;
   color: var(--text-light);
-  background-color: rgba(1, 2, 8, 0.7); /* Dark overlay for entire page */
+  background-color: rgba(1, 2, 8, 0.85);
+  background: 
+    linear-gradient(
+      rgba(1, 2, 8, 0.9), 
+      rgba(1, 2, 8, 0.8)
+    ),
+    url("./asset/abstract-neon-light-gaming-background-generated-by-ai-free-photo.jpg") 
+    center/cover fixed no-repeat;
 }
 
 /* -------------------- Header -------------------- */

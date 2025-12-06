@@ -5,11 +5,11 @@ export default function Home(){
   const navigate = useNavigate();
   
   const handleGetStarted = () => {
-    navigate('/products'); // Change this to your desired route
+    navigate('/products'); 
   };
 
   return (
-    <div style={{ display:'flex', justifyContent:'space-around', marginTop:32 ,padding: 16}}>
+    <div style={{ display:'flex', justifyContent:'space-around',alignItems:'center', marginTop:32 ,minHeight:'80vh', flexDirection:'column' }}>
       <section className="hero-card">
         <h1 className="hero-title">E-SPORTS<br/>EQUIPMENT STORE</h1>
         <p className="hero-sub">Expertise you find the best e-sports gear for competitive gaming.</p>
