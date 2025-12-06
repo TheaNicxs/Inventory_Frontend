@@ -1,4 +1,4 @@
-#Inventory Management System
+# Inventory Management System
 
 ## Frontend Application
 **Live URL:** [https://inventory-frontend-3fdf.vercel.app](https://inventory-frontend-3fdf.vercel.app)
