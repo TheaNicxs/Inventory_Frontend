@@ -9,7 +9,7 @@ export default function Home(){
   };
 
   return (
-    <div style={{ display:'flex', justifyContent:'space-around', marginTop:32 }}>
+    <div style={{ display:'flex', justifyContent:'space-around', marginTop:32 ,padding: 16}}>
       <section className="hero-card">
         <h1 className="hero-title">E-SPORTS<br/>EQUIPMENT STORE</h1>
         <p className="hero-sub">Expertise you find the best e-sports gear for competitive gaming.</p>
