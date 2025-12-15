@@ -87,6 +87,68 @@ body {
   box-shadow: 0 0 15px rgba(0, 160, 255, 0.25);
   border: 1px solid rgba(0, 160, 255, 0.3);
 }
+/* -------------------- Hamburger Menu -------------------- */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  width: 26px;
+  height: 3px;
+  background: #00eaff;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+
+/* Animation */
+.rotate1 {
+  transform: rotate(45deg) translateY(9px);
+}
+.rotate2 {
+  transform: rotate(-45deg) translateY(-9px);
+}
+.hide {
+  opacity: 0;
+}
+
+/* -------------------- Mobile Header -------------------- */
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 16px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(3, 5, 10, 0.98);
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 0;
+    display: none;
+    border-bottom: 1px solid rgba(0, 150, 255, 0.25);
+    backdrop-filter: blur(16px);
+  }
+
+  .nav.show {
+    display: flex;
+  }
+
+  body {
+    padding-top: 72px;
+  }
+}
 
 /* -------------------- Footer -------------------- */
 .footer {
